@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<society simulation="WATOR" title="WT Version A">
+
+    <properties>
+        <dimensions row="100" col="100"/>
+        <population type="EMPTY">0.3</population>
+        <population type="PREY">0.6</population>
+        <population type="PREDATOR">0.1</population>
+    </properties>
+
+    <initialize>
+        <cell type="EMPTY"/>
+        <cell type="PREY"/>
+        <cell type="PREDATOR"/>
+    </initialize>
+
+</society>

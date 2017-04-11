@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<society simulation="SEGREGATION" title="SEG Version A">
+
+    <properties>
+        <dimensions row="15" col="15"/>
+        <population type="AGENT_O">0.25</population>
+        <population type="AGENT_X">0.25</population>
+        <population type="EMPTY">0.5</population>
+    </properties>
+
+    <initialize>
+        <cell type = "AGENT_O"/>
+        <cell type = "AGENT_X"/>
+        <cell type = "EMPTY"/>
+    </initialize>
+
+</society>

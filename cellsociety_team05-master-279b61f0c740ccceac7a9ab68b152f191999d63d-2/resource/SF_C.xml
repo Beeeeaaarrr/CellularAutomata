@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<society simulation="SPREADING_FIRE" title="SF Version A">
+
+    <properties>
+        <dimensions row="100" col="100"></dimensions>
+        <population type="EMPTY">0.15</population>
+        <population type="TREE">0.7</population>
+        <population type="BURNING">0.15</population>
+    </properties>
+
+    <initialize>
+        <cell type="EMPTY"/>
+        <cell type="TREE"/>
+        <cell type="BURNING"/>
+    </initialize>
+
+</society>
